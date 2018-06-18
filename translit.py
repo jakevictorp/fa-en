@@ -1,6 +1,12 @@
+#This script was originally written for Arabic one-to-one transliteration using the Buckwalter system and can be found at:
+# https://www.redhat.com/archives/fedora-extras-commits/2007-June/msg03617.html
+
+# I have made some modifications in order to perform the same task for texts written in Persian (Farsi)
+
 
 import sys, getopt, codecs, os, re
-
+# Declare a dictionary with Buckwalter's ASCII symbols as the keys, and
+# their unicode equivalents as values.
 # NOTE: many of these characters are Arabic-specific, but they will be retained in case of certain "non-Persianized"
 # loan-words, quotes from the Quran, etc.        Modifications made by Jake Perl
 buck2uni = {"'": u"\u0621",  # hamza-on-the-line
