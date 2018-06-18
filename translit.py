@@ -1,8 +1,8 @@
 
 import sys, getopt, codecs, os, re
 
-#NOTE: many of these characters are Arabic-specific, but they will be retained in case of certain "non-Persianized"
-#loan-words, quotes from the Quran, etc.        Modifications made by Jake Perl
+# NOTE: many of these characters are Arabic-specific, but they will be retained in case of certain "non-Persianized"
+# loan-words, quotes from the Quran, etc.        Modifications made by Jake Perl
 buck2uni = {"'": u"\u0621",  # hamza-on-the-line
             "|": u"\u0622",  # madda
             ">": u"\u0623",  # hamza-on-'alif
@@ -51,8 +51,8 @@ buck2uni = {"'": u"\u0621",  # hamza-on-the-line
             "o": u"\u0652",  # sukuun
             "`": u"\u0670",  # dagger 'alif
             "{": u"\u0671",  # waSla
-            #The following are additional Persian-specific or other extra characters to be transliterated
-            #Added by Jake Perl
+            # The following are additional Persian-specific or other extra characters to be transliterated
+            # Added by Jake Perl
             "1": u"\u06F1",  # one
             "2": u"\u06F2",  # two
             "3": u"\u06F3",  # three
