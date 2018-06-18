@@ -1,4 +1,4 @@
-#This script was originally written for Arabic one-to-one transliteration using the Buckwalter system and can be found at:
+# This script was originally written for Arabic one-to-one transliteration using the Buckwalter system and can be found at:
 # https://www.redhat.com/archives/fedora-extras-commits/2007-June/msg03617.html
 
 # I have made some modifications in order to perform the same task for texts written in Persian (Farsi)
